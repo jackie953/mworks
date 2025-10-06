@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "scripts": {
     "dev": "cross-env TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build",
+    "build": "cross-env TINA_CLIENT_ID=7eb5b133-8c23-4c78-b0e1-a6f55e4eec94 TINA_TOKEN=4ff7ae6fb8278343c88288609649805ca6ac1d62 tinacms build && next build",
     "start": "next start"
   },
   "dependencies": {
