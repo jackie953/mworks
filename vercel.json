@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "TINA_TOKEN": "@tina_token" 
+    }
+  }
+}
